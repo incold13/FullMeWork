@@ -7,19 +7,22 @@
 
 .textimg{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
+    height: 450px;
 }
 header{
+    margin: 0 auto;
     width: 100%;
 }
 
 .navigat {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     height: 81px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     flex-direction: row;
 }
@@ -37,7 +40,7 @@ header{
 }
 
 .sect1 {
-    height: 750px;
+    height: 820px;
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -49,7 +52,7 @@ header{
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    width: 75%;
+    width: 80%;
 }
 .glav-text {
     width: 715px;
@@ -62,22 +65,21 @@ header{
 
 .metext {
     color: #666666;
-    padding-top: 2%;
     width: 547px;
     font-size: 22px;
 }
 
 .blackbutton {
-    font-size: 15px;
+    font-size: 17px;
     background-color: black;
     cursor: pointer;
     color: white;
-    width: 130px;
-    height: 45px;
+    width: 150px;
+    height: 58px;
 }
 
 .buttonme {
-    width: 335px;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,7 +91,8 @@ header{
     cursor: pointer;
     align-items: center;
     gap: 15px;
-    padding: 12%;
+    width: 150px;
+    height: 58px;
 }
 
 .compan {
@@ -115,7 +118,7 @@ header{
 }
 
 .textne {
-    height: 220px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,18 +141,18 @@ header{
 
 .karti {
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
 
 .obzz {
+    display: flex;
     width: 100%;
     margin: 0 auto;
     height: 500px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .dive1 {
@@ -249,7 +252,7 @@ header{
     width: 100%;
 }
 .dproj {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -360,7 +363,7 @@ header{
 }
 
 .news-text {
-    width: 1150px;
+    width: 1080px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -439,7 +442,7 @@ header{
 .vis-text {
     height: 300px;
     flex-direction: row;
-    width: 80%;
+    width: 83%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -883,7 +886,8 @@ header{
     .navigat {
         display: flex;
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
+        align-items: flex-end;
     }
     .glav-text{
         display: flex;
@@ -904,9 +908,15 @@ header{
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        align-items: center;
         margin: 0 auto;
-        height: 60%;
+        height: 674px;
         z-index: 1;
+    }
+    .buttonme{
+        display: flex;
+        gap: 6%;
+        width: 54%;
     }
     .compan{
         display: flex;
@@ -924,6 +934,11 @@ header{
         width: 100%;
         gap: 0;
     }
+    .karto-button1 {
+        position: relative;
+        top: 100px;
+        z-index: 0;
+    }
     .imgs img {
         margin: 0 auto;
         display: flex;
@@ -931,16 +946,15 @@ header{
         justify-content: space-around;
     }
 
-    .navigat {
-        width: 100%;
-    }
-
     .blockme{
+        display: flex;
+        align-items: center;
         position: relative;
     }
     .imgess {
         position: relative;
         right: 400px;
+        top: 80px;
         z-index: 0;
     }
     .textimg{
@@ -979,7 +993,7 @@ header{
     }
     .dproj {
         margin: 0 auto;
-        height: 266px;
+        height: 400px;
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
@@ -997,7 +1011,9 @@ header{
     .news {
         position: relative;
         bottom: 0;
+        z-index: 1;
     }
+    
     .news-text {
         display: flex;
         flex-direction: column;
@@ -1099,17 +1115,21 @@ header{
     .t-text-main {
         margin: 0 auto;
         display: flex;
-        justify-content: center;
-        width: 60%;
+        text-align: center;
+        width: 66%;
     }
     .t-button {
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
-    .t-images1 img {
-        height: 40%;
-        width: 40%;
+    .t-images {
+        width: 50%;
+    }
+
+    .t-images1 {
+        height: 350px;
+        width: 400px;
     }
     .faq-block {
         margin: 0 auto;
